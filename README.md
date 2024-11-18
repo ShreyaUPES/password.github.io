@@ -35,5 +35,23 @@ A simple and responsive password generator web app that allows users to generate
 1. **Clone the repository** or download the project files.
 
 2. **Run the Python script** to start the backend server:
-   ```bash
+   bash
    python app.py
+
+The server will start, and you'll be able to access the app at:
+http://localhost:8000
+
+
+**Usage**
+Select the password length: Enter a number between 4 and 32 in the "Password Length" field.
+Select options: Check the boxes to include uppercase letters, numbers, and symbols in the password.
+Click "Generate Password": The app will generate a random password based on the selected options.
+Copy to Clipboard: After the password is generated, click the "Copy to Clipboard" button to copy the password.
+
+**Folder Structure**
+/password-generator-app
+│
+├── app.py            # Backend Python script to serve the application
+├── index.html        # Frontend HTML file
+├── styles.css        # Styles for the frontend
+└── README.md         # Project documentation
